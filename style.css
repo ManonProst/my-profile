@@ -1,0 +1,117 @@
+body {
+  	color: rgb(170, 14, 13);     
+	background-color: #DFDDDF;
+	font-family: Arial 
+}
+
+
+
+h1, h2, h3 {
+	font-family: Courier, serif;
+}
+
+h1 {
+	color: #69B347;
+	font-weight: 900;
+}
+
+h2 {
+	color: rgb(143, 137, 144);
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 500;
+
+}
+a {
+	text-decoration: none;
+	color: purple;
+	font-weight: bold;
+}
+a:hover {
+	color: yellow;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 10px solid lightgrey;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 10px
+}
+
+.list-inline li {
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 20px;
+	color: blue;
+
+}
+
+.list-inline i:hover {
+	color: green;
+
+}
+@media (max-width: 4000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1200px;
+  }
+  body{
+  	font-size: 20px; 
+  }
+  h1,h2,h3{
+  	font-size: 40px;
+  }
+}
+
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  body{
+  	font-size: 20px; 
+  }
+  h1,h2,h3{
+  	font-size: 40px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  body{
+  	font-size: 17px; 
+  }
+  h1,h2,h3{
+  	font-size: 32px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  body{
+  	font-size: 17px; 
+  }
+  h1,h2,h3{
+  	font-size: 32px;
+  }
+
+}
